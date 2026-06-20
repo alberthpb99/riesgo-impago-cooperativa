@@ -1,9 +1,6 @@
 # Riesgo de Impago – Proyecto de Clasificación
 
-Proyecto de análisis y modelado de riesgo de impago de clientes en una cooperativa financiera, desarrollado durante el curso de Minería de Datos y Aprendizaje Automático del programa de Estadística de la Universidad del Valle.  
-
-
-**Resumen**
+## Resumen
 
 Se desarrolló un modelo de clasificación para anticipar el riesgo de impago de clientes de una cooperativa financiera, a partir de datos históricos sociodemográficos y de comportamiento de pago. En primer lugar, se llevó a cabo un análisis exploratorio para identificar variables clave y obtener insights preliminares sobre las tendencias de clientes con riesgo de impago frente a aquellos sin riesgo. A continuación, se entrenaron cuatro modelos (Random Forest, regresión logística, árbol de decisión y XGBoost) mediante validación cruzada para evaluar su capacidad predictiva y ajustar sus hiper-parámetros. Finalmente se comparo su desempeño sobre datos de prueba no vistos, dejando como mejor candidato al modelo de regresión logística por su capacidad para minimizar los falsos negativos, lo que reduce la probabilidad de otorgar crédito a clientes con riesgo de impago y de esta manera disminuir las pérdidas.
 
